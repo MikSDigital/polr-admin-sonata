@@ -1,0 +1,17 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+admin_area:
+    resource: "@SonataAdminBundle/Resources/config/routing/sonata_admin.xml"
+    prefix: /admin
+
+polr_index:
+    path:     /polr
+    defaults: { _controller: AppBundle:Polr:index }
+
+polr_jaxon:
+    path:     /ajax
+    defaults: { _controller: AppBundle:Polr:jaxon }
+    methods: [POST]
+

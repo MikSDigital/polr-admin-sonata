@@ -1,0 +1,20 @@
+parameters:
+  jaxon:
+    app:
+    lib:
+      core:
+        request:
+          uri:                         "ajax"
+        prefix:
+          class:                       ""
+        js:
+          lib:
+          app:
+          extern:                      false
+          minify:                      false
+      dialogs:
+        default:
+          modal:                       bootbox
+          alert:                       noty
+          confirm:                     noty
+
