@@ -1,12 +1,12 @@
-# default: incoming
+default: first
 endpoints:
-    incoming:
+    first:
         name: "First Polr Instance"
-        url: http://isl.newshub.loc
+        url: http://first.domain.com
         api: api/v2
-        key: 8a7dd96bc99ae83dc4a7e905c4f502
-    outgoing:
+        key: 012365478901236547890123654789
+    second:
         name: "Second Polr Instance"
-        url: http://osl.newshub.loc
+        url: http://second.domain.com
         api: api/v2
-        key: ca038120c41eea25bf7b7fd5c29646
+        key: 789654123078965412307896541230
