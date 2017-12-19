@@ -28,7 +28,7 @@ class PolrController extends Controller
         return $this->render('polr.html.twig', [
             'jaxon' => $this->jaxon,
             'polr' => $this->polr,
-            'pageTitle' => "Polr Admin Demo",
+            'pageTitle' => "Polr Admin Dashboard",
         ]);
     }
 
